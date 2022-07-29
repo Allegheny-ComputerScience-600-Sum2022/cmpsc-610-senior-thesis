@@ -1,4 +1,4 @@
-name: Release Senior Thesis Proposal
+name: Release Senior Thesis
 on:
   push:
     tags:
@@ -38,6 +38,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: output/SeniorThesisProposal.pdf
-          asset_name: SeniorThesisProposal.pdf
+          asset_path: output/SeniorThesis.pdf
+          asset_name: SeniorThesis.pdf
           asset_content_type: pdf
