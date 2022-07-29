@@ -1,18 +1,17 @@
 # Template description
 
-Your training in the conduct of research includes learnining to prepare a concise, 
-rigorous, scholarly thesis proposal; you will also present it. While There is no
-strict length requirement for the senior thesis proposal, faculty anticipate that 
-most students will need about twenty pages of text to adequately explain the 
-motivation and goals of their project, review the relevant literature, and 
-describe the feasibility of the proposed work. 
+This repository contains the starter materials for your thesis in Computer Science 600 and 610 
+in Summer 2022 academic term. The main directory of this repository contains the Markdown template
+for a project that is designed for use with GitHub Classroom. To learn more about the course in 
+which these assignments were completed, please visit the 
+[Computer Science Thesis Summer 2022 Allegheny College GitHub Organization](https://github.com/Allegheny-ComputerScience-600-Sum2022).
 
 The template specifies various settings in the `config.yaml` file included in the
 repository. Change the appropriate values under the `Project-specific values` 
 heading. Changing other values outside of that section may cause the project to
 fail to build. **Modify these values at your own risk.**
 
-Author your proposal in the `proposal.md` document using appropriate markdown
+Author your thesis in the `thesis.md` document using appropriate Markdown
 hierarchy and syntax; GitHub Actions will automatically create a PDF from the
 `abstract.md` and `proposal.md` files. Consult the `README` of the proposal
 repository to learn how to properly build and release this PDFs.
@@ -31,17 +30,59 @@ the PDF version you plan to defend.
 
 # Introduction
 
-This section should include a statement of the problem, the overall aims, and the background motivating your research. Whenever possible, you should use one or more concrete examples
-and technical diagrams.
+This chapter describes your completed senior thesis work, 
+including the overall aims  and the background motivating your research. Whenever 
+possible, you should use one or more concrete examples and technical diagrams. 
+
+It is often useful and necessary to separate the introduction into multiple sections. 
+Several possible sections are proposed below, you can use these or distribute your 
+introductory text into sections in another way.
+
+The headings below propose _one way_ you might structure this section of the document.
+
+## Motivation
+
+## Current State of the Art
+
+## Goals of the Project
+
+## Ethical Implications
+
+This document requires that you discuss the ethical implications of your work -- no
+matter how benign you consider the outcome of your project. As several major studies
+of ethical issues in computer science assert: _no project is completely value-neutral_.
+
+To assist you in elaborating on these issues, the following areas are topics you might
+consider addressing. You do not need to address all of them.
+
+* Information Privacy
+* Information Accuracy (e.g. can contain reliability)
+* Potential Misuse (e.g. computer crime, unintended consequences)
+* Second- or Third-Party Risk (e.g. safety)
+* Data Collection Issues (e.g. issues inherent in collecting data)
+* Algorithmic or Data Bias
+* Potential Power Difference / Social Imbalance / Issues in Equity
+
+In addition, reflect on ways that the above harms can be or are mitigated by your work
 
 # Related work
 
-This section should include a statement of the problem, the overall aims, and the background motivating your research. Whenever possible, you should use one or more concrete examples
-and technical diagrams.
+This chapter includes a broad and detailed review of relevant existing work. 
+The literature review should provide background and context for the thesis work. 
+The subsections may be organized in whatever manner seems best suited to the material--
+chronological, or by topic, or according to some other criteria 
+(e.g., primary versus secondary resources).
+
+If ethical issues are central to this work, you should also address historical and 
+contemporary issues or efforts made to address them.
 
 # Method of approach
 
-This section should answer the ``how'' question - how will you perform the proposed research. It should also describe the feasibility study you have conducted to demonstrate that your project is feasible. Use technical diagrams, equations, algorithms, and paragraphs of text to describe the research that you intend to complete. Be sure to number all figures and tables and to explicitly refer to them in your text.
+This chapter answers the "how" question - how did you complete your project, 
+including the overall design of your study, details of the algorithms and tools you 
+have used, etc.  Use technical diagrams, equations, algorithms, and paragraphs of text 
+to describe the research that you have completed. Be sure to number all figures and 
+tables and to explicitly refer to them in your text.
 
 This should contain:
 
@@ -49,19 +90,44 @@ This should contain:
 * with points
 * and more points
   * possibly subpoints
-* be ul-compatible
 
-# Evaluation strategy
+For those projects whose implications address social or moral issues (i.e. ethical
+standards, causes, effects), you will want to use this section to describe how you
+actively mitigated or considered these issues.
 
-This section should explain what steps you will take to evaluate your proposed method. If you intend to conduct experiments, then you must clearly define your evaluation metrics.
+# Experiments
 
-# Research schedule
+This chapter describes your experimental set up and evaluation. It should also 
+produce and describe the results of your study. The section titles below offer
+a typical structure used for this chapter.
 
-This section identify the main phases and tasks of your research project and set deadlines for when you will be able to complete each of these items. Please remember that you should aim to complete the project before the middle of March.
+## Experimental Design
+
+Especially as it pertains to responisble computing, if conducting experiments or 
+evaluations that involve particular ethical considerations, detail those issues here.
+
+## Evaluation
+
+## Threats to Validity
 
 # Conclusion
 
-Provide a summary of your proposed research and suggest the impact that it may have on the discipline of computer science. If possible, you may also suggest some areas for future research.
+Traditionally, this chapter addresses the areas proposed below as sections, although 
+not necessarily in this order or organized as offered. However, the last section --
+"Ethical Implcations" is required for this chapter. See the heading below for more 
+details.
+
+## Summary of Results
+
+## Future Work
+
+## Future Ethical Implications and Recommendations
+
+Especially as pertains to the public release or use of your software or methods, what
+unresolved or special issues remain? What recommendations might you make?
+
+## Conclusions
+
 
 # References
 
