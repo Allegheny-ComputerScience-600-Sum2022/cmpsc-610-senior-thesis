@@ -22,6 +22,9 @@ in the following blockquote. (Inspect the `thesis.md` file to see the format.)
 > A citation, when included correctly, will appear as it does at the end of this
 > sentence. [@plaat1996research]
 
+These sources must be added in `bibtex` format to the `references.bib` file for
+citation and referencing to occur.
+
 To label a figure (i.e. an image), referencing the image using correct Markdown
 will automatically caption the figure:
 
