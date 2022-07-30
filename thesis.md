@@ -25,7 +25,9 @@ in the following blockquote. (Inspect the `thesis.md` file to see the format.)
 To label a figure (i.e. an image), referencing the image using correct Markdown
 will automatically caption the figure:
 
-> ![Label](images/IMAGE_NAME.png)
+```markdown
+![Label](images/IMAGE_NAME.png)
+```
 
 Two things specific to this template to also keep in mind:
 
