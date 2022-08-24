@@ -16,11 +16,15 @@ hierarchy and syntax; GitHub Actions will automatically create a PDF from the
 `abstract.md` and `proposal.md` files. Consult the `README` of the proposal
 repository to learn how to properly build and release this PDFs.
 
+## Citations and references
+
 Including references throughout requires a specific pseudo-Markdown tag, demonstrated
 in the following blockquote. (Inspect the `thesis.md` file to see the format.)
 
 > A citation, when included correctly, will appear as it does at the end of this
 > sentence. [@plaat1996research]
+
+## Labeling figures
 
 To label a figure (i.e. an image), referencing the image using correct Markdown
 will automatically caption the figure:
@@ -28,6 +32,22 @@ will automatically caption the figure:
 ```markdown
 ![Label](images/IMAGE_NAME.png)
 ```
+
+## Labeling tables
+
+To provide a label for a table, write a short caption for the table and prefix the caption
+with `Table:` as in the example below:
+
+```
+Table: A two-row table demonstrating tables
+
+|Row number | Description |
+|:----------|:------------|
+|1          |Row 1        |
+|2          |Row 2        |
+```
+
+## Other template information
 
 Two things specific to this template to also keep in mind:
 
